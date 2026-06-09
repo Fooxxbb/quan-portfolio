@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Văn Quân - Portfolio</title>
+    <meta name="description" content="Portfolio Kỹ thuật số của Nguyễn Đình Tú - Đại học Công nghệ. Trình bày quá trình học tập và ứng dụng công nghệ số.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+            <li><a href="#projects" class="nav-link">Dự án</a></li>
+            <li><a href="#summary" class="nav-link">Trải nghiệm</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="greeting">Xin chào, tôi là</h2>
+                <h1 class="name">Nguyễn Văn Quân</h1>
+                <h3 class="role">Sinh viên Đại học Công nghệ (VNU-UET)</h3>
+                <div class="info-badges">
+                    <span class="badge"><i class="fas fa-id-card"></i> MSV: 25022439</span>
+                    <span class="badge"><i class="fas fa-university"></i> VNU - UET</span>
+                </div>
+                <p class="description">
+                    Chào mừng bạn đến với Portfolio Kỹ thuật số của tôi. Đây là nơi tôi tổng hợp và thể hiện kiến thức, kỹ năng đã học được từ môn <strong>"Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo"</strong>. Portfolio này không chỉ là tập hợp các bài tập mà còn là công cụ hữu ích để tôi giới thiệu năng lực của bản thân trong tương lai.
+                </p>
+                <div class="goals-container">
+                    <h4><i class="fas fa-bullseye"></i> Mục tiêu học tập & Portfolio</h4>
+                    <ul class="goals-list">
+                        <li>Lưu trữ sản phẩm cá nhân để dễ dàng truy cập và chia sẻ.</li>
+                        <li>Thể hiện các kỹ năng số đã học qua các bài tập bổ ích.</li>
+                        <li>Ứng dụng AI vào học tập và công việc một cách hiệu quả và có trách nhiệm.</li>
+                    </ul>
+                </div>
+                <a href="#projects" class="btn primary-btn">Khám phá Dự án <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-visual">
+                <div class="blob-shape"></div>
+                <div class="profile-placeholder">
+                    <i class="fas fa-user-graduate profile-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Hệ thống bài tập thành phần</h2>
+            <p class="section-subtitle">Các bài tập thể hiện quá trình rèn luyện</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-folder-tree"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 1</div>
+                    <h3 class="project-title">Thao tác cơ bản với tệp tin và thư mục</h3>
+                    <p class="project-desc">Trình bày cấu trúc thư mục tối ưu và quy tắc đặt tên tệp đã thiết lập, kèm theo hình ảnh chụp minh họa chi tiết từng bước thao tác trên hệ điều hành.</p>
+                    <div class="project-skills">
+                        <span>Quản lý tệp</span>
+                        <span>Tối ưu hóa</span>
+                    </div>
+                    <a href="./B1.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-search-dollar"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 2</div>
+                    <h3 class="project-title">Tìm kiếm và đánh giá thông tin học thuật</h3>
+                    <p class="project-desc">Trình bày kết quả tìm kiếm học thuật bằng việc sử dụng các toán tử nâng cao và bảng đánh giá độ tin cậy của các nguồn thông tin đã thực hiện.</p>
+                    <div class="project-skills">
+                        <span>Kỹ năng tìm kiếm</span>
+                        <span>Đánh giá nguồn tin</span>
+                    </div>
+                    <a href="./B2.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 3</div>
+                    <h3 class="project-title">Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                    <p class="project-desc">So sánh chi tiết giữa Prompt ban đầu và Prompt được cải tiến. Phân tích sự khác biệt về chất lượng kết quả đầu ra từ AI để thấy được sức mạnh của Prompt Engineering.</p>
+                    <div class="project-skills">
+                        <span>Prompt Engineering</span>
+                        <span>AI Tương tác</span>
+                    </div>
+                    <a href="./B3.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-users"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 4</div>
+                    <h3 class="project-title">Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
+                    <p class="project-desc">Cung cấp các minh chứng về việc ứng dụng hiệu quả công cụ quản lý dự án nhóm, qua đó thể hiện cách thức phối hợp, phân chia công việc trực tuyến.</p>
+                    <div class="project-skills">
+                        <span>Teamwork</span>
+                        <span>Quản lý dự án</span>
+                    </div>
+                    <a href="./B4.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 5</div>
+                    <h3 class="project-title">Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3>
+                    <p class="project-desc">Trưng bày các sản phẩm nội dung số hoàn thiện (bao gồm hình ảnh, video hoặc bài viết) được lên ý tưởng và tạo ra với sự hỗ trợ đắc lực từ AI.</p>
+                    <div class="project-skills">
+                        <span>Generative AI</span>
+                        <span>Sáng tạo nội dung</span>
+                    </div>
+                    <a href="./B5.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-scale-balanced"></i></div>
+                <div class="project-content">
+                    <div class="project-week">Bài tập 6</div>
+                    <h3 class="project-title">Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                    <p class="project-desc">Trình bày bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm, được đúc kết dựa trên các nghiên cứu và đánh giá rủi ro đạo đức khi ứng dụng AI.</p>
+                    <div class="project-skills">
+                        <span>Đạo đức AI</span>
+                        <span>Tư duy phản biện</span>
+                    </div>
+                    <a href="./B6.pdf" target="_blank" class="btn secondary-btn view-btn"><i class="fas fa-file-pdf"></i> Xem kết quả</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary" class="summary-section">
+        <div class="section-header">
+            <h2 class="section-title">Tổng kết và Trải nghiệm</h2>
+            <p class="section-subtitle">Nhìn lại chặng đường hoàn thiện dự án Portfolio</p>
+        </div>
+
+        <div class="summary-content">
+            <div class="summary-card">
+                <div class="summary-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Kiến thức & Kỹ năng quan trọng</h3>
+                <p>Khóa học đã trang bị cho tôi bộ kỹ năng cốt lõi của kỷ nguyên số: quản lý thông tin chính xác, khai thác dữ liệu hiệu quả, phối hợp nhóm qua không gian mạng và làm chủ AI thông qua Prompt Engineering. Đây không chỉ là kiến thức học thuật — đây là nền tảng tôi sẽ mang theo suốt sự nghiệp.</p>
+            </div>
+            
+            <div class="summary-card">
+                <div class="summary-icon"><i class="fas fa-heart"></i></div>
+                <h3>Cảm nhận cá nhân</h3>
+                <p>Tự tay xây dựng một Portfolio kỹ thuật số hoàn chỉnh là minh chứng rõ nhất cho sự trưởng thành của tôi trong khóa học này. Ứng dụng AI vào sáng tạo nội dung đã mở ra cách tư duy hoàn toàn mới — và tôi hiểu rõ rằng sức mạnh thực sự đến từ việc sử dụng AI có đạo đức và trách nhiệm.</p>
+            </div>
+
+            <div class="summary-card">
+                <div class="summary-icon"><i class="fas fa-mountain"></i></div>
+                <h3>Thách thức </h3>
+                <p>Khó khăn lớn nhất là việc làm quen với tư duy viết Prompt và tối ưu hóa kết quả từ AI, cũng như tổng hợp khối lượng kiến thức lớn thành một Portfolio hoàn chỉnh, dễ nhìn và chỉn chu. Bằng sự kiên trì và học hỏi liên tục, tôi đã hoàn thiện được sản phẩm cuối cùng đáp ứng được yêu cầu đặt ra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Portfolio.</div>
+            <p>&copy; 2026 Nguyễn Văn Quân</p>
+            <div class="social-links">
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
